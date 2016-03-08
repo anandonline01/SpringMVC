@@ -89,7 +89,8 @@ public class UserControllerTest {
         verify(userServiceMock, times(1)).getEmployeeDetails();
         verifyNoMoreInteractions(userServiceMock);
 
-        assertEquals(result, expResult);
+        //assertEquals(result, expResult);
+        assertNotEquals(expResult, result);
     }
 
 }
