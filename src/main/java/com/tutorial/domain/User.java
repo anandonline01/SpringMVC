@@ -6,6 +6,7 @@ public class User {
     private String gender;
     private String ageGroup;
 
+    
     public String getUserName() {
         return userName;
     }
